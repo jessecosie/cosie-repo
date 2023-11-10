@@ -1,0 +1,155 @@
+body{
+    /* background-color: rgb(52, 154, 32); */
+    background-image: url(kids\ background\ 1.jfif);
+    /* background-image: url(Background\ 2.jfif); */
+    background-size: cover;
+    width: 1200px;
+    position: fixed;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; /* Aligns items vertically at the center */
+    /* background-color: #333;  */
+    background-color: rgba(45, 5, 5, 0.5);
+    color: #fff;
+    padding: 10px 20px;
+    height: 100px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+marquee{
+    width: 100%;
+}
+header:hover{
+    transform-style: scale;
+    background-color: black;
+} 
+h1{
+    background-color: red;
+    width:100%;
+    color: white;
+    height: 50px;
+    font-size: 40px;
+    margin: 0;
+}
+.list{
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    margin-right: 50%;
+    color: white;
+    justify-items: center;
+    padding: 14px 16px;
+    
+}
+a{
+    color: white;
+}
+.list:hover{
+    cursor: pointer;
+    /* color: blue; */
+}
+li{
+    margin-right: 10px;
+    justify-content: center;
+  
+}
+a:hover{
+    color: aqua;
+    /* background-color: black; */
+}
+img{
+    width: 100px;
+    display: flex;
+}
+h1:hover{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+p{
+    font-size: 50px;
+    color: red;
+    font-weight: bolder;
+    font-style: italic;
+
+    /* margin-left: 25%; */
+    background-color:rgba(45, 5, 5, 0.5) ;
+    width: 100%;
+}
+.image-grid{
+    
+    display: flex;
+    /* grid-template-rows:max-content ; */
+    grid-template-columns:repeat(5, 6fr) ; 
+    /* width: 1200px; */
+    /* background-color: aqua; */
+}
+.image-grid img{
+    width: 200px;
+    margin: 5px;
+    background-color: white;
+    height: 350px;
+}
+@media (max-width: 800px) {
+    body {
+        font-size: 14px;
+        /* Other styles for smaller screens */
+    }
+}
+.image-grid {
+    display: flex;
+    white-space: nowrap;
+    animation: scrollAnimation 10s linear infinite ; /* Adjust the speed here */
+    /* background-color: blue; */
+}
+/* .image-grid figure{
+    width: 200px;
+    margin: 5px;
+    background-color: white;
+} */
+@keyframes scrollAnimation {
+    from {
+        transform: translateX(0%);
+        /* opacity: 1; */
+    }
+    to {
+        transform: translateX(-100%);
+        /* opacity: 0; */
+    }
+}
+.image-grid img:hover {
+    /* transform: rotate(180deg)  scale(1.2); */
+    transform: scale(1.02);
+}
+footer{
+    margin-top: 100vh;
+    padding: 1em;
+    background-color: rgba(45, 5, 5, 0.5);
+    /* border-radius: 30px; */
+    color: white;
+    background-color: rgba(240,0,0,0.5);
+    width: 100%;
+    padding-top: 50px;
+
+}
+
+.copyright{
+    color: white;
+    font-size: smaller;
+    margin-inline-start: 25%;
+}
+figcaption{
+    color: red;
+    background-color: white;
+    width: 200;
+    margin-top: 0;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+

@@ -1,0 +1,48 @@
+body{
+    /* background-image: url(kids\ background\ 1.jfif); */
+    background-color: rgb(183, 19, 112);
+    background-position: 100px;
+    
+}
+header{
+    background-color: rgba(240,0,0,0.5);
+    width: 100%;
+    padding-top: 50px;
+    font-size: 50px;
+    font-style: italic;
+}
+.image-grid{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.image-grid img{
+    width: 200px;
+    margin: 5px;
+}
+.image-grid img:hover {
+    /* transform: rotate(180deg)  scale(1.2); */
+    transform: scale(1.02);
+}
+.image-grid {
+    display: grid;
+    grid-template-rows:300px 300px 300px 300px 300px ;
+    grid-template-columns:repeat(5, 6fr) ; 
+}
+
+/* .image1{
+    grid-row:span3 ;
+    grid-column: span 2 ;
+}
+.image3{
+    grid-row:span 2 ; 
+    grid-column:span 3 ;
+}
+.image5{
+    grid-row:span 2 ;
+    grid-column: 3 ;
+}
+.image7{
+    grid-area:2 / 4 / 4 / 6 ;
+    z-index: 1;
+}  */

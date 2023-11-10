@@ -1,0 +1,77 @@
+h1{
+    align-items: center;
+    font-size: medium;
+    font-style:normal
+    /* color: aqua; */
+}
+body{
+    background-color: hwb(310 5% 25%);
+}
+.login{
+    background-color: rgb(18, 99, 166);
+    width: 80%;
+    /* justify-content: center; */
+    border-radius: 2px;
+    color: white;
+    
+}
+form{
+    background-color: rgb(235, 123, 38);
+    border-radius: 10px;
+    width: 140%;
+    align-items: center;
+    margin-right: 40px;
+    width: fit-content;
+    padding:5%;
+    height: 400px;
+}
+.signup{
+    background-color: rgb(18, 99, 166);
+    width: 80%;
+    color: white;
+}
+.fb{
+    width: 100%;
+    background-color: rgb(62, 111, 218);
+    border-radius: 2px;
+    color: white;
+}
+.google{
+    width: 100%;
+    border: 0.5px solid black;
+}
+img{
+    background-color: rgb(62,111,218);
+    width: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-top: px;
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+    height: 400px;
+    justify-items: center;
+    /* width: 20px; */
+}
+.items{
+    justify-content: center;
+    /* align-items: center; */
+    /* display: center; */
+}
+input{
+    margin: 5px;
+}
+button{
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+a{
+    color: rgb(62, 111, 218);
+}

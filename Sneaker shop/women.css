@@ -1,0 +1,29 @@
+body{
+    /* background-image: url(background7.jfif); */
+    background-color: rgb(172, 19, 113);
+}
+header{
+    background-color: rgba(240,0,0,0.5);
+    width: 100%;
+    padding-top: 50px;
+}
+
+h1{
+    font-size: 40px;
+}
+.image-row{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+}
+.image-row img{
+    width: 220px;
+    margin: 5px;
+    min-height:300px ;
+    max-height:300px ;
+    
+}
+.image-row img:hover {
+    translate: (180deg)  scale(1.2);
+    transform: scale(1.05);
+}

@@ -1,0 +1,19 @@
+body{
+    /* background-image: url(background3.jfif); */
+    transition: transform 0,3s;
+    background-color: rgb(183, 19, 112);
+}
+.image-grid{
+    display: grid;
+    justify-content: center;
+    align-items: stretch;
+    grid-template-columns: repeat(5, 1fr);
+}
+.image-grid img{
+    width: 210px;
+    margin: 5px;
+}
+.image-grid img:hover {
+    /* transform: rotate(180deg)  scale(1.2); */
+    transform: scale(1.05);
+}
