@@ -1,3 +1,14 @@
+body{
+    background-color: orangered;
+}
 p{
     margin-inline-start: 25%;
+    color: white;
+}
+footer{
+    background-color: rgba(251, 77, 14, 0.5);
+    padding: 60px, 0, 30px;
+    text-align: center;
+    color: orangered;
+    width: 100%;
 }

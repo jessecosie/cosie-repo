@@ -5,7 +5,7 @@ body{
     background-size: cover;
     width: 1200px;
     position: fixed;
-    
+    height: 1000vh;
 }
 header{
     display: flex;
@@ -29,7 +29,7 @@ header:hover{
     background-color: black;
 } 
 h1{
-    background-color: red;
+    background-color: orangered;
     width:100%;
     color: white;
     height: 50px;
@@ -68,12 +68,12 @@ img{
 }
 h1:hover{
     background-color: black;
-    color: red;
+    color: orangered;
     cursor: pointer;
 }
 p{
     font-size: 50px;
-    color: red;
+    color: orangered;
     font-weight: bolder;
     font-style: italic;
 
@@ -106,6 +106,7 @@ p{
     white-space: nowrap;
     animation: scrollAnimation 10s linear infinite ; /* Adjust the speed here */
     /* background-color: blue; */
+    /* flex-wrap: wrap; */
 }
 /* .image-grid figure{
     width: 200px;
@@ -144,12 +145,19 @@ footer{
     margin-inline-start: 25%;
 }
 figcaption{
-    color: red;
-    background-color: white;
+    color: orangered;
+    background-color: black;
     width: 200;
     margin-top: 0;
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
+@media only screen and ( max-width:600px){
+    .image-grid{
+        text-align:center;
+    }
+    .image-gridko{
+        flex-basis: 100%;
+    }
+}
 
